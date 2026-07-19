@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "=== Mise à jour dnf ==="
-sudo dnf upgrade -y && sudo dnf update -y
+sudo dnf upgrade -y
 echo ""
 echo "=== Mise à jour Flatpak ==="
 flatpak update -y
